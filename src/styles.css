@@ -1,1 +1,48 @@
-// All of your CSS goes here
+body {
+  margin: 0px;
+}
+
+h1,h2,h3{
+  color: black;
+  text-align: center;
+  text-decoration-style: wavy;
+  font-size: 200%
+
+}
+
+div#header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("images/retrogames.jpg");
+}
+
+
+div#main img {
+  width: 30%;
+  margin-top: 20px
+}
+
+
+div#buttons {
+  display: inline-block;
+}
+
+button {
+  display: block;
+  color: purple;
+  width: 40%;
+  height:30px;
+  margin-left: 80px;
+  margin-top: 35px;
+  outline-style: groove;
+  font-style: italic;
+  text-align: center;
+}
+
+#textboxDiv {
+   padding: 8px;
+   text-align: center;
+   background: transparent;
+   font-size: 20px;
+   display:inline;
+ }
